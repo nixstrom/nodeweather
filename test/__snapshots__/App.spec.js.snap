@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders App 1`] = `
+<div
+  className="widget"
+  style={
+    Object {
+      "margin": "10px",
+      "width": "300px",
+    }
+  }
+>
+  <div
+    className="panel panel-info"
+  >
+    <div
+      className="panel-heading"
+    >
+      Weather in 
+      <b>
+        Copenhagen
+      </b>
+    </div>
+    <ul
+      className="list-group"
+    >
+      <li
+        className="list-group-item"
+      >
+        Temperature: 
+        <b>
+          3
+          °C
+        </b>
+      </li>
+      <li
+        className="list-group-item"
+      >
+        Humidity: 
+        <b>
+          80
+          %
+        </b>
+      </li>
+      <li
+        className="list-group-item"
+      >
+        Wind: 
+        <b>
+          5.1
+           m/s 
+          S
+        </b>
+      </li>
+      <li
+        className="list-group-item"
+      >
+        <Form
+          cityInputRef={
+            Object {
+              "current": null,
+            }
+          }
+          onSubmit={[Function]}
+        />
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<App /> renders App with errorMessage 1`] = `
+<div
+  className="widget"
+  style={
+    Object {
+      "margin": "10px",
+      "width": "300px",
+    }
+  }
+>
+  <div
+    className="panel panel-info"
+  >
+    <div
+      className="panel-heading"
+    >
+      Weather in 
+      <b />
+    </div>
+    <ul
+      className="list-group"
+    >
+      <li
+        className="list-group-item"
+      >
+        Temperature: 
+        <b>
+          NaN
+          °C
+        </b>
+      </li>
+      <li
+        className="list-group-item"
+      >
+        Humidity: 
+        <b>
+          %
+        </b>
+      </li>
+      <li
+        className="list-group-item"
+      >
+        Wind: 
+        <b>
+           m/s 
+        </b>
+      </li>
+      <li
+        className="list-group-item"
+      >
+        <Form
+          cityInputRef={
+            Object {
+              "current": null,
+            }
+          }
+          onSubmit={[Function]}
+        />
+      </li>
+      <div
+        className="alert alert-danger"
+        role="alert"
+      >
+        An error occured
+      </div>
+    </ul>
+  </div>
+</div>
+`;
